@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* App Container */
+.app-container {
+  width: 40%;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+form button {
+  width: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  background: #4bd4ec;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #3ab0c4;
+}
+
+/* To-Do List */
+.todos {
+  text-align: left;
+}
+
+.todos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+/* Editable To-Do */
+.todo-text {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.todo-text:hover {
+  color: #4bd4ec;
+}
+
+/* Delete Button */
+.delete-btn {
+  color: red;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
+
+/* Input while Editing */
+.todo-item input {
+  width: 80%;
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
