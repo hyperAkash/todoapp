@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
+  //todos state
   let [todos, setTodos] = useState([]);
 
   let addTodo = (e) => {
